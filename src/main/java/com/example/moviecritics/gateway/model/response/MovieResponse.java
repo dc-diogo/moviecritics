@@ -10,4 +10,15 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class MovieResponse {
+
+    Integer year;
+
+    String title;
+
+    String producersName;
+
+    String studios;
+
+    Boolean winner;
+
 }

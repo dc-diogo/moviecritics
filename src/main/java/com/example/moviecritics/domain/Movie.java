@@ -25,19 +25,19 @@ public class Movie {
     @Column(name = "ID", nullable = false)
     private Long id;
 
-    @Column(name = "name", length = 4, nullable = false)
+    @Column(name = "_year", nullable = false)
     private Integer year;
 
     @Column(name = "title", nullable = false)
     String title;
 
     @Column(name = "producers", nullable = false)
-    String producersName;
+    String producers;
 
     @Column(name = "studios", nullable = false)
     String studios;
 
-    @Column(name = "has_won", nullable = false)
+    @Column(name = "winner", nullable = false)
     Boolean winner;
 
 }
